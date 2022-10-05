@@ -1,0 +1,11 @@
+version: '3'
+services:
+        fetsh-client-web-app:
+                build:
+                  context: .
+                  dockerfile: Dockerfile
+                image: fetsh/fetsh-client-web-app:v1
+                container_name: fetsh-client-web-app  
+                ports:
+                        - "3000:3000"
+

@@ -1,0 +1,10 @@
+{
+  "*.{js,jsx,ts,tsx}": [
+    "yarn test:staged",
+    "yarn format",
+    "yarn lint "
+  ],
+  "*.{md,json}": [
+    "yarn format"
+  ]
+}
